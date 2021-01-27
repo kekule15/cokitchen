@@ -40,7 +40,7 @@ class _HomepageState extends State<Homepage> {
     'https://images.unsplash.com/photo-1579684947550-22e945225d9a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80',
     'https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=803&q=80',
   ];
-  
+
 
   Widget _cardObject() {
     return Card(
@@ -550,7 +550,7 @@ class _HomepageState extends State<Homepage> {
                       .map((item) => Container(
                             child: Center(
                                 child: Image.network(item,
-                                    fit: BoxFit.fill, width: 1200)),
+                                    fit: BoxFit.cover, width: 1200)),
                           ))
                       .toList(),
                 ),
