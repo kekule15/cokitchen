@@ -103,7 +103,7 @@ class _HomepageState extends State<Homepage> {
                 children: <Widget>[
                   Text("Jollof & Co",
                       style: TextStyle(color: Colors.black, fontSize: 20)),
-                  Text("Delicouse evryday Niaja food",
+                  Text("Delicouse everyday Niaja food",
                       style: TextStyle(color: Colors.grey, fontSize: 15)),
                   Text("items as low as N500",
                       style: TextStyle(color: Colors.grey, fontSize: 15)),
@@ -310,7 +310,7 @@ class _HomepageState extends State<Homepage> {
                     color: Colors.grey[100],
                     image: DecorationImage(
                         fit: BoxFit.fill,
-                        image: AssetImage("assets/pasta.png"))),
+                        image: AssetImage("assets/burger.png"))),
               ),
               trailing: IconButton(
                 onPressed: () {},
@@ -384,7 +384,7 @@ class _HomepageState extends State<Homepage> {
                     color: Colors.grey[100],
                     image: DecorationImage(
                         fit: BoxFit.fill,
-                        image: AssetImage("assets/burger.png"))),
+                        image: AssetImage("assets/pasta.png"))),
               ),
               trailing: IconButton(
                 onPressed: () {},
@@ -419,10 +419,11 @@ class _HomepageState extends State<Homepage> {
         preferredSize: Size.fromHeight(180.0),
         child: AppBar(
           backgroundColor: Colors.white,
+          elevation: 0,
           automaticallyImplyLeading: false, // hides leading widget
           flexibleSpace: Container(
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(15, 40, 15, 0),
+              padding: const EdgeInsets.fromLTRB(20, 40, 20, 0),
               child: Column(
                 children: <Widget>[
                   Container(
@@ -516,10 +517,10 @@ class _HomepageState extends State<Homepage> {
                           children: <Widget>[
                             Text(
                               "EST. delivery time: 35mins",
-                              style: TextStyle(color: Colors.grey),
+                              style: TextStyle(color: Colors.grey, fontSize: 12)
                             ),
                             Text("Your first delivery is FREE!",
-                                style: TextStyle(color: Colors.grey))
+                                style: TextStyle(color: Colors.grey,fontSize: 12))
                           ],
                         )
                       ],
