@@ -102,11 +102,11 @@ class _HomepageState extends State<Homepage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text("Jollof & Co",
-                      style: TextStyle(color: Colors.black, fontSize: 20)),
+                      style: TextStyle(color: Colors.black, fontSize: 18)),
                   Text("Delicouse everyday Niaja food",
-                      style: TextStyle(color: Colors.grey, fontSize: 15)),
+                      style: TextStyle(color: Colors.grey, fontSize: 13)),
                   Text("items as low as N500",
-                      style: TextStyle(color: Colors.grey, fontSize: 15)),
+                      style: TextStyle(color: Colors.grey, fontSize: 13)),
                 ],
               ),
             )
@@ -176,11 +176,11 @@ class _HomepageState extends State<Homepage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text("mama Put",
-                      style: TextStyle(color: Colors.black, fontSize: 20)),
+                      style: TextStyle(color: Colors.black, fontSize: 18)),
                   Text("Authentic Native Nigerian food",
-                      style: TextStyle(color: Colors.grey, fontSize: 15)),
+                      style: TextStyle(color: Colors.grey, fontSize: 13)),
                   Text("items as low as N500",
-                      style: TextStyle(color: Colors.grey, fontSize: 15)),
+                      style: TextStyle(color: Colors.grey, fontSize: 13)),
                 ],
               ),
             )
@@ -250,11 +250,11 @@ class _HomepageState extends State<Homepage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text("Papa's Pizza",
-                      style: TextStyle(color: Colors.black, fontSize: 20)),
+                      style: TextStyle(color: Colors.black, fontSize: 18)),
                   Text("Original wood fired pizza",
-                      style: TextStyle(color: Colors.grey, fontSize: 15)),
+                      style: TextStyle(color: Colors.grey, fontSize: 13)),
                   Text("items as low as N700",
-                      style: TextStyle(color: Colors.grey, fontSize: 15)),
+                      style: TextStyle(color: Colors.grey, fontSize: 13)),
                 ],
               ),
             )
@@ -324,11 +324,11 @@ class _HomepageState extends State<Homepage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text("Burger Shop",
-                      style: TextStyle(color: Colors.black, fontSize: 20)),
+                      style: TextStyle(color: Colors.black, fontSize: 18)),
                   Text("Delicouse gourmet burgers & sides",
-                      style: TextStyle(color: Colors.grey, fontSize: 15)),
+                      style: TextStyle(color: Colors.grey, fontSize: 13)),
                   Text("items as low as N800",
-                      style: TextStyle(color: Colors.grey, fontSize: 15)),
+                      style: TextStyle(color: Colors.grey, fontSize: 13)),
                 ],
               ),
             )
@@ -398,11 +398,11 @@ class _HomepageState extends State<Homepage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text("Pasta Factory",
-                      style: TextStyle(color: Colors.black, fontSize: 20)),
+                      style: TextStyle(color: Colors.black, fontSize: 18)),
                   Text("Savoury pasta mixes",
-                      style: TextStyle(color: Colors.grey, fontSize: 15)),
+                      style: TextStyle(color: Colors.grey, fontSize: 13)),
                   Text("items as low as N450",
-                      style: TextStyle(color: Colors.grey, fontSize: 15)),
+                      style: TextStyle(color: Colors.grey, fontSize: 13)),
                 ],
               ),
             )
