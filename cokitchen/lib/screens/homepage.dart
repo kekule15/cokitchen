@@ -104,7 +104,7 @@ class _HomepageState extends State<Homepage> {
                   Text("Jollof & Co",
                       style: TextStyle(color: Colors.black, fontSize: 18)),
                   Text("Delicouse everyday Niaja food",
-                      style: TextStyle(color: Colors.grey, fontSize: 13)),
+                      style: TextStyle(color: Colors.grey, fontSize: 10)),
                   Text("items as low as N500",
                       style: TextStyle(color: Colors.grey, fontSize: 13)),
                 ],
@@ -178,7 +178,7 @@ class _HomepageState extends State<Homepage> {
                   Text("mama Put",
                       style: TextStyle(color: Colors.black, fontSize: 18)),
                   Text("Authentic Native Nigerian food",
-                      style: TextStyle(color: Colors.grey, fontSize: 13)),
+                      style: TextStyle(color: Colors.grey, fontSize: 10)),
                   Text("items as low as N500",
                       style: TextStyle(color: Colors.grey, fontSize: 13)),
                 ],
@@ -252,7 +252,7 @@ class _HomepageState extends State<Homepage> {
                   Text("Papa's Pizza",
                       style: TextStyle(color: Colors.black, fontSize: 18)),
                   Text("Original wood fired pizza",
-                      style: TextStyle(color: Colors.grey, fontSize: 13)),
+                      style: TextStyle(color: Colors.grey, fontSize: 10)),
                   Text("items as low as N700",
                       style: TextStyle(color: Colors.grey, fontSize: 13)),
                 ],
@@ -326,7 +326,7 @@ class _HomepageState extends State<Homepage> {
                   Text("Burger Shop",
                       style: TextStyle(color: Colors.black, fontSize: 18)),
                   Text("Delicouse gourmet burgers & sides",
-                      style: TextStyle(color: Colors.grey, fontSize: 13)),
+                      style: TextStyle(color: Colors.grey, fontSize: 10)),
                   Text("items as low as N800",
                       style: TextStyle(color: Colors.grey, fontSize: 13)),
                 ],
@@ -400,7 +400,7 @@ class _HomepageState extends State<Homepage> {
                   Text("Pasta Factory",
                       style: TextStyle(color: Colors.black, fontSize: 18)),
                   Text("Savoury pasta mixes",
-                      style: TextStyle(color: Colors.grey, fontSize: 13)),
+                      style: TextStyle(color: Colors.grey, fontSize: 10)),
                   Text("items as low as N450",
                       style: TextStyle(color: Colors.grey, fontSize: 13)),
                 ],
@@ -423,7 +423,7 @@ class _HomepageState extends State<Homepage> {
           automaticallyImplyLeading: false, // hides leading widget
           flexibleSpace: Container(
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(20, 40, 20, 0),
+              padding: const EdgeInsets.fromLTRB(14, 40, 14, 0),
               child: Column(
                 children: <Widget>[
                   Container(
@@ -449,7 +449,7 @@ class _HomepageState extends State<Homepage> {
                                     "53 Awolowo Road, Ikoyi",
                                     style: TextStyle(
                                         color: Colors.black,
-                                        fontSize: 16,
+                                        fontSize: 15,
                                         fontWeight: FontWeight.bold),
                                   ),
                                   IconButton(
@@ -495,7 +495,7 @@ class _HomepageState extends State<Homepage> {
                               child: TextFormField(
                                 decoration: InputDecoration(
                                   prefixIcon: Icon(Icons.search),
-                                  hintText: "what are you craving",
+                                  hintText: "what are you craving?",
                                   border: InputBorder.none,
                                 ),
                               ),
@@ -517,10 +517,10 @@ class _HomepageState extends State<Homepage> {
                           children: <Widget>[
                             Text(
                               "EST. delivery time: 35mins",
-                              style: TextStyle(color: Colors.grey, fontSize: 12)
+                              style: TextStyle(color: Colors.grey, fontSize: 10)
                             ),
                             Text("Your first delivery is FREE!",
-                                style: TextStyle(color: Colors.grey,fontSize: 12))
+                                style: TextStyle(color: Colors.grey,fontSize: 10))
                           ],
                         )
                       ],
